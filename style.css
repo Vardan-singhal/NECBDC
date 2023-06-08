@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=PT+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    background-image: url(Images/1.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+  .header {
+    background-color: white;
+    margin-top: 40px;
+    padding-left: 70px;
+    padding-top: 30px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding-bottom: 30px;
+  }
+  .h3 {
+    color: gray;
+    font-family:  Courier prime;
+    font-weight: 100;
+    font-size: 15px;
+  }
+  .search {
+    position: absolute;
+    right: 50px;
+    top: 110px;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 19px;
+    border-color: rgb(208, 208, 208);
+  }
+  .button {
+    position: absolute;
+    right: 50px;
+    top: 110px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    font-size: 15px;
+    border: none;
+    background-color: white;
+    border-color: rgb(208, 208, 208);
+  }
+  .as {
+    background-color: rgb(36, 79, 52);
+    border: 6px solid rgb(31, 94, 2);
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 20px;
+    border-radius: 60px;
+    height: 10px;
+    padding-bottom: 45px;
+    padding-left: 20px;
+    font-family:  PT sans-serif;
+    position: relative;
+    
+}
+  .as ul {
+    display: flex;
+    list-style: none;
+    color: black;
+    
+  }
+  .as ul li {
+    margin-left: 60px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    
+  }
+  .as ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+  .active,
+  .as ul li:hover {
+    background-color: rgb(36, 79, 52);
+    
+  }
+  .sub-menu {
+    display: none;
+    z-index: 2;
+  }
+  .as ul li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background-color: rgb(56, 113, 74);
+    margin-top: 15px;  
+    margin-left: 12px;
+    padding: 10px;
+    
+  }
+  .as ul li:hover .sub-menu ul {
+    display: block;
+    margin: 10px;
+    
+  }
+  .as ul li:hover .sub-menu ul li {
+    width: 150px;
+    padding: 8px;
+    border-bottom: 1px dotted#fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: justify;
+    margin-left: -8px;
+   
+}
+  .as ul li:hover .sub-menu ul li:last-child {
+    border-bottom: none;
+  }
+  .content {
+    width: 1200px;
+    height: 860px;
+    background-color: rgb(182, 210, 162);
+    margin: auto;
+    margin-bottom: 200px;
+    margin-top: 50px;
+    font-family: PT sans-serif;
+  }
+  .sub-content {
+    width: 500px;
+    height: 300px;
+    background-color: rgb(182, 210, 162);
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 10px;
+    font-family: PT sans-serif;
+    text-align: justify;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  .image {
+    width: 600px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 25px;
+    position: absolute;
+    right: 200px;
+    bottom: 90px;
+  }
+  .list {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+  }
+  .box1 {
+    background-color: rgb(36, 79, 52);
+    width: 500px;
+    height: 30px;
+    margin-top: 60px;
+    margin-left: 20px;
+    border-radius: 50px;
+    text-align: center;
+    padding: -2px;
+    font-size: 20px;
+    
+}
+  .box2 {
+    background-color: rgb(36, 79, 52);
+    width: 500px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 20px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: -5px;
+    font-size: 20px;
+  }
+  .box1 a {
+    text-decoration: none;
+    color: white;
+    font-family: PT sans-serif;
+  }
+  .box2 a {
+    text-decoration: none;
+    color: white;
+    font-family: PT sans-serif;
+  }
+  .image2 {
+    position: absolute;
+    width: 600px;
+    height: 450px;
+    right: 200px;
+    top: 660px;
+    padding-bottom: 50px;
+  }
+  .image2 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 20px;
+    float: left;
+    
+}
+  .image2 a {
+    text-decoration: underline;
+    color: black;
+    font-weight: 600;
+    margin-left: 200px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin-left: 240px;
+    margin-top: 30px;
+  }
+  .image2 p {
+    text-align: center;
+    margin-left: 100px;
+    font-size: 15px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+    
+  
+  .subcontent {
+    width: 580px;
+    height: 300px;
+    background-color: rgb(182, 210, 162);
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  .objectives{
+    width: 580px;
+    height: 840px;
+    background-color: rgb(36, 79, 52);
+    color: white;
+    margin-left: 20px;
+    margin-top: 65px;
+    font-size: 25px;
+    font-family: 'Courier' Prime;
+    padding-top: 10px;
+    position: absolute;
+    right: 170px;
+    top: 350px;
+  }
+  .objectives ul li{
+    margin-top: 28px;
+    
+  }
+  .objectives ul li i{
+    margin-left: 5px;
+  }
+  
+  
+ 
+  .content1 p{
+    margin-left: 20px;
+    font-size: 15px;
+  }
+  .content1 h4{
+    margin-left: 20px;
+    margin-top: 8px;
+    font-weight: 600;
+    margin-left: 7px;
+  }
+  .content1 {
+    width: 1200px;
+    height: 80%px;
+    background-color: rgb(182, 210, 162);
+    margin: auto;
+    margin-bottom: 200px;
+    margin-top: 50px;
+    font-family: 'Courier' Prime;
+    font-size: 5px;
+    
+  }
+  .footer{
+    height: 80px;
+    width: 100%;
+    
+    margin-bottom: 80px;
+    margin-top: 100px;
+    width: 100%;
+  }
+  .carousel-item img{
+    width: 100%;
+    height: 250px;
+  }
+  .form-inline{
+    position: absolute;
+    right: 50px;
+    top: 100px;
+  }
+  .mission{
+    height: 1270px;
+    width: 80%;
+    background-color:rgb(36, 79, 52) ;
+    margin-left: 150px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+  .achievement{
+    height: 950px;
+    width: 80%;
+    background-color:rgb(36, 79, 52) ;
+    margin-left: 150px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+    .mission_content{
+        color: white;
+        padding: 30px;
+    }
+    .mission_content h3{
+        text-align: center;
+        text-decoration: underline; 
+        font-size: 28px  
+    }
+    .mission_content p{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 18px
+    }
+        .tourism{
+        height: 950px;
+        width: 80%;
+        background-color:rgb(36, 79, 52) ;
+        margin-left: 150px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        overflow: auto;
+    }
+    .tourism_content{
+            text-align: start;
+            margin-top: 20px;
+            font-size: 18px;
+            color: white;
+            margin-left: 10px;
+        
+    }
+    
+    .employee{
+      height: 50px;
+      width: 100%;
+      background-color: white;
+      text-align-last: right;
+    }
+    .employee a{
+      text-decoration: underline;
+      margin-right: 10px;
+      padding: 20px;
+      color: black;
+      font-weight: 700;
+      font-size: 20px;
+    }
+    @media screen and (max-width:200px) {
+      .image{
+        display:block
+      }
+    }

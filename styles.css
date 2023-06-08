@@ -1,0 +1,13 @@
+body{
+    background-image: url(/images/8.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.form{
+    background-image: url(/images/7.jpg);
+    height: 500px;
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 125px;
+  }     
